@@ -1,0 +1,49 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+}
+
+/* Styling for each cell */
+td {
+  padding: 12px;
+  text-align: center;
+}
+
+.text-table {
+  font-weight: 500;
+}
+
+.horizontal-line {
+  width: 100%;       /* Full-width line */
+  height: 1px;       /* Thickness of the line */
+  background-color: #6e6e6e56; /* Color of the line */
+  margin: 20px 0;    /* Spacing around the line */
+}
+
+///////
+/* Scrollbar Styles */
+.scroll-container {
+  max-height: 400px; /* Adjust this height based on your needs */
+  overflow-y: auto; /* This will allow vertical scrolling */
+  padding-right: 10px; /* Optional: Adds space to prevent content from being hidden behind the scrollbar */
+}
+
+/* Custom scrollbar track */
+.scroll-container::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color: #FF7F5C;
+  border-radius: 10px;
+  border: 3px solid #F4DBD4;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+  background-color: #F4DBD4;
+  border-radius: 10px;
+}

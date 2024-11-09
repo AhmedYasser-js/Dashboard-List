@@ -1,0 +1,23 @@
+
+.sacondary-nav {
+  font: normal normal bold 1.3rem ;
+}
+
+.mat-mdc-form-field-infix {
+  width: 130px !important;
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column; /* Stacks the sections vertically on smaller screens */
+  }
+  .section1, .section2, .section3 {
+    flex: .8 1 100%; /* Each section takes full width on small screens */
+  }
+}
+
+
+.fa-arrow-rotate-right {
+  rotate: 90deg;
+  font-size: 35px;
+}

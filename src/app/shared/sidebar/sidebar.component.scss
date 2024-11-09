@@ -1,0 +1,70 @@
+section {
+  border-top-right-radius: 3.625rem;
+  height: 100vh;
+  background-color: #FF7F5C;
+div {
+  .icon_W{
+    width: 100px;
+  }
+}
+
+  ul {
+    padding: 0px;
+    li {
+      list-style: none;
+      a {
+          padding: 7px;
+          color:#fff;
+          text-decoration: none;
+          display: block;
+          span {
+            margin: 0px 5px;
+            i {
+              color: #fff !important;
+              }
+          }
+      }
+    }
+  }
+  .bg-main-transparent {
+    background-color: #fff;
+    position: relative;
+    color: #000 !important;
+    border-radius: 15px;
+    font-size: larger;
+  }
+
+  .bg-main-transparent::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 15px;
+  }
+
+}
+
+
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+
+///
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Ensures sidebar takes full viewport height */
+}
+
+.sidebar .flex-grow-1 {
+  flex-grow: 1; /* Pushes the content to fill the remaining space */
+}
+
+.logout-section {
+  margin-top: auto; /* Moves the logout section to the bottom */
+}

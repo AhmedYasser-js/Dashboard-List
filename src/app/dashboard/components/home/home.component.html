@@ -1,0 +1,117 @@
+<section class="bg-main d-flex p-5">
+  <div class="text-center pe-3 w-75">
+    <div class="d-flex justify-content-between ">
+      <div class="bg-home pt-3 px-4 rounded-5 text-start">
+        <h3>71,028 <span>EGP</span></h3>
+        <p>Total Value</p>
+        <p class="text2"><i class="fas fa-arrow-down"></i> 2%</p>
+      </div>
+
+      <div class="bg-white pt-3 px-4 rounded-5 text-start">
+        <h3>20,000 <span>EGP</span></h3>
+        <p>Total Sales</p>
+        <p class="text1"><i class="fas fa-arrow-up"></i> 2%</p>
+      </div>
+
+      <div class="bg-white pt-3 px-4 rounded-5 text-start">
+        <h3>12345 <span>EGP</span></h3>
+        <p>Avg Sales</p>
+        <p class="text2"><i class="fas fa-arrow-down"></i> 2%</p>
+      </div>
+
+      <div class="bg-white pt-3 px-4 rounded-5 text-start">
+        <h3>71,028 <span>EGP</span></h3>
+        <p>Total Transaction Count</p>
+        <p class="text1"><i class="fas fa-arrow-up"></i> 2%</p>
+      </div>
+    </div>
+
+    <div class=" mt-5">
+      <div class="d-flex justify-content-end">
+        <div class="section2 sacondary-nav mx-3 my-2 d-flex gap-2 rounded-5 bg-white">
+          <span class="p-2 px-3 rounded-5 pointer d-flex gap-1" routerLink="graph"
+            routerLinkActive="bg-main2 text-white">
+            <i class="fas fa-chart-line fa-2x"></i>
+            <p>GRAPH</p>
+          </span>
+
+          <span class="p-2 px-3 pointer rounded-5 d-flex gap-1" routerLink="list"
+            routerLinkActive="bg-main2 text-white">
+            <i class="fas fa-list fa-2x"></i>
+            <p>LAYER</p>
+          </span>
+        </div>
+
+      </div>
+
+      <router-outlet></router-outlet>
+
+
+    </div>
+  </div>
+
+
+  <!-- ============= -->
+
+
+  <div class="w-25">
+    <section class="container bg-white p-2 rounded-4 mt-2">
+      <h3 class="py-2 text-center">Hourly Sales</h3>
+      <canvas id="allData"></canvas>
+    </section>
+
+    <div class="text-center mt-4">
+      <h3>Sales by Station</h3>
+
+
+      <div>
+        <div class=" d-flex justify-content-between align-items-end">
+          <div>
+            <img class="img-fluid" src="../../../assets/images/gas-station-svgrepo-com-2.svg" alt="Gas Station Icon">
+            <span> Station Name</span>
+          </div>
+          <div>
+            <p class="">62,721</p>
+          </div>
+
+        </div>
+        <div class="bar mt-2" data-percent="70">
+          <div class="bar-inner">70%</div>
+        </div>
+      </div>
+
+      <div>
+        <div class=" d-flex justify-content-between align-items-end">
+          <div>
+            <img class="img-fluid" src="../../../assets/images/gas-station-svgrepo-com-2.svg" alt="Gas Station Icon">
+            <span> Station Name</span>
+          </div>
+          <div>
+            <p class="">62,721</p>
+          </div>
+
+        </div>
+        <div class="bar mt-2" data-percent="70">
+          <div class="bar-inner">70%</div>
+        </div>
+      </div>
+
+      <div>
+        <div class=" d-flex justify-content-between align-items-end">
+          <div>
+            <img class="img-fluid" src="../../../assets/images/gas-station-svgrepo-com-2.svg" alt="Gas Station Icon">
+            <span> Station Name</span>
+          </div>
+          <div>
+            <p class="">62,721</p>
+          </div>
+
+        </div>
+        <div class="bar mt-2" data-percent="70">
+          <div class="bar-inner">70%</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
